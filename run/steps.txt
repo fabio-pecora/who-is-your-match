@@ -22,3 +22,5 @@ examples\driven_audio\
 
 5. Run SadTalker
 python inference.py --driven_audio examples/driven_audio/my_audio.wav --source_image examples/source_image/my_face.png --result_dir results --pose_style 0 --batch_size 2 --size 256 --expression_scale 1.0 --preprocess full
+
+python inference.py --driven_audio examples/driven_audio/my_audio.wav --source_image examples/source_image/test.png --result_dir results --pose_style 0 --batch_size 2 --size 256 --expression_scale 0.4 --enhancer gfpgan --preprocess full --still
